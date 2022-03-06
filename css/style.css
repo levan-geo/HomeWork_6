@@ -1,9 +1,31 @@
 /*Base classes*/
+.border {
+    border:  1px solid red;
+}
+
+.clear {
+    clear: both;
+}
+
 .wrapper {
     width: 1326px;
     margin:  0 auto;
 }
-
 .logo {
+ width:  160px;
+    float: left;
+    margin-top:  4px;
+}
+
+nav {
+    width: 700px;
+    margin-top: 48px;
     float: left;
 }
+
+nav li {
+    display: inline-block;
+    margin-left: 48px;
+}
+
+
