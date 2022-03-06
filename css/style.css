@@ -1,0 +1,9 @@
+/*Base classes*/
+.wrapper {
+    width: 1326px;
+    margin:  0 auto;
+}
+
+.logo {
+    float: left;
+}
