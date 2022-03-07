@@ -3,10 +3,15 @@
     border:  1px solid red;
 }
 
+.f-left{
+    float:  left;
+}
+
 .clear {
     clear: both;
 }
 
+/*Header*/
 .wrapper {
     width: 1326px;
     margin:  0 auto;
@@ -33,4 +38,57 @@ nav li {
     width: 100%;
 }
 
+h4 {
+    width: 563px;
+    font-size: 22px;
+    color:  #FF7A00;
+    margin:84px 0 81px 42px;
+    font-family: Poppins;
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
 
+.item {
+    width: 363px;
+}
+
+.item h4 {
+    font-family: "Playfair Display", serif;
+    line-height: 46px;
+    color: #181C28;
+    font-size: 36px;
+    font-weight: 700;
+    margin: 20px 0 22px 0;
+}
+
+.item p {
+    width: 636px;
+    line-height: 26px;
+    font-family: Poppins;
+    color: #7B7B7B;
+    font-size: 16px;
+}
+
+.item p span{
+    display: block;
+}
+
+.item a {
+    font-family: "Poppins", sans-serif;
+    line-height: 41px;
+    font-size: 14px;
+    color: #ff7a00;
+    display: inline-block;
+    vertical-align: middle;
+    font-weight: 600;
+}
+
+.item a::after {
+    content: ' ';
+    height: 4px;
+    width: 41px;
+    display: inline-block;
+    background-color: #ff7a00;
+    margin-left: 18px;
+}
