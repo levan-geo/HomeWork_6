@@ -47,15 +47,14 @@ nav li {
 .text-image {
     position: absolute;
     top: 30%;
-    left: 17%;
+    left: 35%;
     text-align: center;
     color:  white;
 }
 
-.text-image:first-child {
+.text1 {
     font-size: 22px;
     font-family: "Poppins", sans-serif;
-    line-height: 75px;
 }
 
 .text-image:last-child {
@@ -63,7 +62,6 @@ nav li {
     font-family: "Poppins", sans-serif;
     font-weight: bold;
     font-style: normal;
-    line-height: 75px;
 }
 
 h4 {
