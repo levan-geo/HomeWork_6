@@ -7,6 +7,9 @@
     float:  left;
 }
 
+.r-right {
+    float: right;
+}
 .clear {
     clear: both;
 }
@@ -34,8 +37,33 @@ nav li {
     margin-left: 48px;
 }
 
-.full-image {
+.full-image img {
     width: 100%;
+}
+.full-image {
+    position:  relative;
+}
+
+.text-image {
+    position: absolute;
+    top: 30%;
+    left: 17%;
+    text-align: center;
+    color:  white;
+}
+
+.text-image:first-child {
+    font-size: 22px;
+    font-family: "Poppins", sans-serif;
+    line-height: 75px;
+}
+
+.text-image:last-child {
+    font-size: 48px;
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    line-height: 75px;
 }
 
 h4 {
@@ -43,14 +71,16 @@ h4 {
     font-size: 22px;
     color:  #FF7A00;
     margin:84px 0 81px 42px;
-    font-family: Poppins;
+    font-family: "Poppins", sans-serif;
     font-weight: 500;
     font-style: normal;
     font-display: swap;
 }
 
 .item {
-    width: 363px;
+    width: 636px;
+    display: inline-block;
+    /*margin-right:  52px;*/
 }
 
 .item h4 {
@@ -65,7 +95,7 @@ h4 {
 .item p {
     width: 636px;
     line-height: 26px;
-    font-family: Poppins;
+    font-family: "Poppins", sans-serif;
     color: #7B7B7B;
     font-size: 16px;
 }
@@ -92,3 +122,86 @@ h4 {
     background-color: #ff7a00;
     margin-left: 18px;
 }
+
+/*button*/
+.button {
+    width: 190px;
+    height: 70px;
+    border-color: #95989A;
+    background-color: #ff7a00;
+    position: relative;
+    margin-bottom: 134px;
+    margin-top: 66px;
+}
+
+.button span {
+    font-size: 16px;
+    line-height: 136px;
+    color: #FFFFFF;
+    position: absolute;
+    top: -42%;
+    left: 28%;
+}
+
+.full-div {
+    background-color: black;
+    height: 266px;
+    margin-bottom: 82px;
+}
+
+
+/*Footer*/
+.footer-item {
+    /*width: 130px;*/
+    float: left;
+    vertical-align: middle;
+    margin-right: 150px;
+}
+
+.footer-item1 {
+    width: 100px;
+}
+
+.footer-item2 {
+    width: 250px;
+}
+
+.footer-h6 {
+    margin-bottom: 15px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+    font-size: 24px;
+    color: black;
+    float: left;
+}
+
+.footer-item ul li a {
+    margin-bottom:  12px;
+    font-family: "Poppins", sans-serif;
+    color: #7B7B7B;
+    font-size: 16px;
+    line-height: 36px;
+}
+
+.visa {
+    float: left;
+}
+
+.visa ul li{
+    display: inline-block;
+    vertical-align:  middle;
+    float:  left;
+    margin-right:  10px;
+}
+
+.visa ul li img {
+    width: 50px;
+    height: 35px;
+}
+
+.r-right {
+    float: right;
+}
+
